@@ -7,6 +7,7 @@ public class ArrayLists {
         l.add("90");
         l.add("A");
         l.add(null);
+        l.add(100);
         System.out.println(l);
         /*IN Array List duplicates are allowed and insertion order is preserved, so we get the
         output : [A, 90, A, null] - null values are allowed in array list */
@@ -25,6 +26,9 @@ public class ArrayLists {
 
         /* This will add value M at the last index and we get the ouput as : [A, 90, D, null, M] */
 
+        /* References: https://gyansetu-core-java-for-java.gitbook.io/project/untitled-1/creating-and-using-list-set-and-deque-implementations/arraylist\
+
+         */
 
     }
 }
